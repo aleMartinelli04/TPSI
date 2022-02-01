@@ -1,4 +1,4 @@
-package martinelli.puzzle;
+package puzzle;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

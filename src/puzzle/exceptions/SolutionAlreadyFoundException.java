@@ -1,6 +1,6 @@
-package martinelli.puzzle.exceptions;
+package puzzle.exceptions;
 
-import martinelli.puzzle.Colors;
+import puzzle.Colors;
 
 public class SolutionAlreadyFoundException extends PuzzleException {
     public SolutionAlreadyFoundException(String message) {

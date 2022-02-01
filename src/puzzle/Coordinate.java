@@ -1,4 +1,4 @@
-package martinelli.puzzle;
+package puzzle;
 
 public class Coordinate {
     private final int column;

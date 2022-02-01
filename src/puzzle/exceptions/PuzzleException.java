@@ -1,4 +1,4 @@
-package martinelli.puzzle.exceptions;
+package puzzle.exceptions;
 
 public class PuzzleException extends Exception {
     public PuzzleException() {

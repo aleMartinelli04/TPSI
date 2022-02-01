@@ -1,4 +1,4 @@
-package martinelli.puzzle.exceptions;
+package puzzle.exceptions;
 
 public class PuzzleNotEndedException extends PuzzleException {
     public PuzzleNotEndedException() {

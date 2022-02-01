@@ -1,4 +1,4 @@
-package martinelli.puzzle;
+package puzzle;
 
 public enum Direction {
     NORTH,
