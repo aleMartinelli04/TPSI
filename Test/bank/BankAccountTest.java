@@ -7,8 +7,8 @@ import static org.junit.Assert.*;
 
 public class BankAccountTest {
 
-    public static BankAccount mario = new BankAccount("Mario", "Super", 50_000);
-    public static BankAccount luigi = new BankAccount("Luigi", "Pensa", 1_000_000);
+    public final BankAccount mario = new BankAccount("Mario", "Super", 50_000);
+    public final BankAccount luigi = new BankAccount("Luigi", "Pensa", 1_000_000);
 
     @Test
     public void getFirstName() {
