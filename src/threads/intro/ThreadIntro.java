@@ -3,7 +3,7 @@ package threads.intro;
 import java.sql.Timestamp;
 
 public class ThreadIntro {
-    static int num = 0;
+    private static int num = 0;
 
     public static void main(String[] args) {
         new Thread(new ThreadIncrement()).start();
