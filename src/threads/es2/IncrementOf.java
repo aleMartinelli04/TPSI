@@ -1,4 +1,4 @@
-package threads.intro_v2;
+package threads.es2;
 
 public class IncrementOf implements Runnable {
     int amount;

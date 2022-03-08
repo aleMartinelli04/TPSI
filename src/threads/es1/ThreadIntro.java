@@ -1,4 +1,4 @@
-package threads.intro;
+package threads.es1;
 
 import java.sql.Timestamp;
 

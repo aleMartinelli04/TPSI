@@ -1,4 +1,4 @@
-package threads.intro;
+package threads.es1;
 
 public enum Colors {
     RESET("\u001B[0m"),
