@@ -2,14 +2,20 @@ package threads.es4_sincronizzazione_thread;
 
 public class SynchronizedThread {
     public static void main(String[] args) {
+        MakeOperations mop = new MakeOperations();
 
+        Thread t1 = new Thread(new RunThread1(mop), "T_SOMMA");
+        Thread t2 = new Thread(new RunThread2(mop), "T_SOTTRAZIONE");
+
+        t1.start();
+        t2.start();
     }
 }
 
 class MakeOperations {
     private int data;
 
-    public void doOp(int v) {
+    public synchronized void doOp(int v) {
         System.out.printf("Il valore del dato dal thread %s è", Thread.currentThread().getName());
 
         for (int i = 0; i < 5; i++) {
@@ -29,7 +35,6 @@ class MakeOperations {
     private int getRes() {
         return data;
     }
-
 }
 
 class RunThread1 implements Runnable {
