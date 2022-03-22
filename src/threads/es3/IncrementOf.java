@@ -8,10 +8,10 @@ public class IncrementOf implements Runnable {
     }
 
     @Override
-    public synchronized void run() {
+    public void run() {
         for (int i = 0; i < 5; i++) {
-            System.out.println("Valore della variabile impostato da " + Main.count + " a " + (amount + Main.count));
-            Main.count += amount;
+            System.out.println("Valore della variabile impostato da " + Main.count + " a " + (amount + Main.count.get()));
+            Main.count.addAndGet(amount);
         }
     }
 }
