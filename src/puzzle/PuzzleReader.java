@@ -44,7 +44,7 @@ public class PuzzleReader {
     }
 
     private String getRelativePath(String filename) {
-        return "src/martinelli/puzzle/puzzleFiles/%s.txt".formatted(filename);
+        return "verifica_17_maggio/martinelli/puzzle/puzzleFiles/%s.txt".formatted(filename);
     }
 
 
